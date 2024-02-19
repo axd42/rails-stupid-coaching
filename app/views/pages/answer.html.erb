@@ -1,0 +1,10 @@
+<div class="m-3">
+  <h1>Stupid coaching</h1>
+  <div class="border-top border-grey">
+    <div class="p-3 text-capitalize text-primary"><%= params["key"]%></div>
+    <div class="p-3 bg-warning rounded"><%= @answer %></div>
+  </div>
+    <div class="badge badge-secondary">
+      <%= link_to "New message", ask_path %>
+    </div>
+</div>
